@@ -1,0 +1,8 @@
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/HelloWorld.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/Experimental.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/Nightly.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/Continuous.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/HelloWorld/build/CMakeFiles/ZERO_CHECK.dir
