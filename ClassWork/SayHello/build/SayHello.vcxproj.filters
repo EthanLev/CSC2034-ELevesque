@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ethan\CSC2034-ELevesque\ClassWork\SayHello\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ethan\CSC2034-ELevesque\ClassWork\SayHello\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8217D11-993C-3E4A-A2AB-A1173914BD42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

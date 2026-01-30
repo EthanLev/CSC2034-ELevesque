@@ -1,0 +1,3 @@
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/FormatString/build/CMakeFiles/FormatString.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/FormatString/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/FormatString/build/CMakeFiles/ZERO_CHECK.dir

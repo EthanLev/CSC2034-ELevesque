@@ -1,0 +1,10 @@
+^C:\USERS\ETHAN\CSC2034-ELEVESQUE\CLASSWORK\NUMBERS\BUILD\CMAKEFILES\BF071715D2B4E30C49BA697DED47153B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ethan/CSC2034-ELevesque/ClassWork/Numbers -BC:/Users/ethan/CSC2034-ELevesque/ClassWork/Numbers/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ethan/CSC2034-ELevesque/ClassWork/Numbers/build/Numbers.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
