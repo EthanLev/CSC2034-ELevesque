@@ -1,0 +1,3 @@
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/Vector/out/build/CMakePresets.json/CMakeFiles/Vector.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/Vector/out/build/CMakePresets.json/CMakeFiles/edit_cache.dir
+C:/Users/ethan/CSC2034-ELevesque/ClassWork/Vector/out/build/CMakePresets.json/CMakeFiles/rebuild_cache.dir

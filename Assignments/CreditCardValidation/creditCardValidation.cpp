@@ -131,8 +131,8 @@ CardType getCardType(unsigned long long int num) {
     }
 
     // get prefixes
-    unsigned long long int firstDigit = getPrefix(num, 1);
-    unsigned long long int firstTwo = getPrefix(num, 2);
+    unsigned int firstDigit = getPrefix(num, 1);
+    unsigned int firstTwo = getPrefix(num, 2);
 
     if (firstDigit == 4)
         return VISA;

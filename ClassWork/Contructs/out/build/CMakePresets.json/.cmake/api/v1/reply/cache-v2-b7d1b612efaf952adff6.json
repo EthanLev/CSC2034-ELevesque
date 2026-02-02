@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation/out/build/CMakePresets.json"
+			"value" : "c:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation/out/build/CMakePresets.json/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation/out/install/CMakePresets.json"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/install/CMakePresets.json"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -903,7 +903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CreditCardValidation"
+			"value" : "Contructs"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1370,7 +1370,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "CreditCardValidation_BINARY_DIR",
+			"name" : "Contructs_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1379,10 +1379,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation/out/build/CMakePresets.json"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json"
 		},
 		{
-			"name" : "CreditCardValidation_IS_TOP_LEVEL",
+			"name" : "Contructs_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1394,7 +1394,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "CreditCardValidation_SOURCE_DIR",
+			"name" : "Contructs_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/Assignments/CreditCardValidation"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs"
 		}
 	],
 	"kind" : "cache",
