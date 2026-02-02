@@ -1,8 +1,4 @@
-#include <iostream>
-#include <vector>
 #include "creditCardValidation.h"
-
-using namespace std;
 
 /*
     Number must have between 13 and 16 digits
@@ -42,10 +38,19 @@ int main() {
         }
 
         if (isValid(cardNumber)) {
-            cout << cardNumber << " is a valid credit card number" << endl;
+            CardType type = getCardType(cardNumber);
+
+            switch (type) {
+                case VISA:          cout << "Valid Visa" << endl; break;
+                case MASTERCARD:    cout << "Valid Mastercard" << endl; break;
+                case DISCOVER:      cout << "Valid Discover" << endl; break;
+                case AMEX:          cout << "Valid American Express" << endl; break;
+                default:            cout << "Valid number, unknown issuer" << endl; break;
+            
+            }
         } else {
-            cout << cardNumber << " is an invalid credit card number" << endl;
-        } 
+            cout << "Invalid card number" << endl;
+        }
 
         cout << "Enter another c/c number? (Y/N)" << endl;
 
@@ -63,26 +68,88 @@ int main() {
     }
 }
 
+// checks if a card number passes Luhn check
 bool isValid(unsigned long long int num) {
-    if (num < 13 || num > 16) return false;
-
-    int result = 0;
-
-    result = sumOfDoubleEvenPlace(num) + sumOfOddPlace(num);
-
-    // cout << "Result: " << result << endl;
-
-    if (result % 10 == 0) {
-        return true;
-    } else {
+    // fails if prefix or length is invalid
+    if (getCardType(num) == INVALID)
         return false;
-    }
+
+    int sum = sumOfDoubleEvenPlace(num) + sumOfOddPlace(num);
+
+    return (sum % 10 == 0);
 }
 
+// adds digits if number has 2 digits
 int getDigit(int num) {
-    return 0;
+    if (num < 10) 
+        return num; // already single digit
+
+    return num / 10 + num % 10; // split and add digits
 }
 
+// counts how many digits in number
+int getSize(unsigned long long int num) {
+    int count = 0;
+
+    while (num > 0) {
+        count ++; // count
+        num /= 10; // remove last digit
+    }
+
+    return count;
+}
+
+// returns first k digits of number
+unsigned long long int getPrefix(unsigned long long int num, int k) {
+    int size = getSize(num);
+
+    if (size <= k) 
+        return num; // number already as short as k
+
+    // remove digits from end until k digits left
+    for (int i = 0; i < size - k; i++) {
+        num /= 10;
+    }
+
+    return num;
+}
+
+// checks if number starts with a certain prefix
+bool prefixMatched(unsigned long long int num, int d)
+{
+    int prefixLength = getSize(d);      // how many digits in d
+    return getPrefix(num, prefixLength) == d;
+}
+
+// returns the type of credit card  from number
+CardType getCardType(unsigned long long int num) {
+    int size = getSize(num);
+
+    // check card num length
+    if (size < 13 || size > 16) {
+        return INVALID;
+    }
+
+    // get prefixes
+    unsigned long long int firstDigit = getPrefix(num, 1);
+    unsigned long long int firstTwo = getPrefix(num, 2);
+
+    if (firstDigit == 4)
+        return VISA;
+    
+    if (firstDigit == 5)
+        return MASTERCARD;
+
+    if (firstDigit == 6) 
+        return DISCOVER;
+
+    if (firstTwo == 37) 
+        return AMEX;
+
+    return INVALID;
+}
+
+// returns sum of digits in off place
 int sumOfOddPlace(unsigned long long int num) {
     int sum = 0; 
 
@@ -100,6 +167,7 @@ int sumOfOddPlace(unsigned long long int num) {
     return sum;
 }
 
+// returns the sum of doubled digits in even place
 int sumOfDoubleEvenPlace(unsigned long long int num) {
     int sum = 0;
 
@@ -111,8 +179,7 @@ int sumOfDoubleEvenPlace(unsigned long long int num) {
         digit *= 2;           // even place digits get doubled
 
         // if result is 2 digits, split and add those digits
-        if (digit > 9) 
-            digit = digit / 10 + digit % 10; // seperate each digit
+        digit = getDigit(digit);
 
         sum += digit; // add to total sum
 
