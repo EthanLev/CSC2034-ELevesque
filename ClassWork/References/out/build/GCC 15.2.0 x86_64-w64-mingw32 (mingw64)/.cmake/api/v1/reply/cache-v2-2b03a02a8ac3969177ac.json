@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json"
+			"value" : "c:/Users/ethan/CSC2034-ELevesque/ClassWork/References/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "UNINITIALIZED",
 			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
@@ -367,7 +367,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-g"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-Os -DNDEBUG"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -399,7 +399,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_STANDARD_LIBRARIES",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/References/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/References"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/install/CMakePresets.json"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/References/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -903,7 +903,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Contructs"
+			"value" : "References"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -1370,7 +1370,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Contructs_BINARY_DIR",
+			"name" : "References_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1379,10 +1379,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs/out/build/CMakePresets.json"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/References/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 		},
 		{
-			"name" : "Contructs_IS_TOP_LEVEL",
+			"name" : "References_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1394,7 +1394,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Contructs_SOURCE_DIR",
+			"name" : "References_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Contructs"
+			"value" : "C:/Users/ethan/CSC2034-ELevesque/ClassWork/References"
 		}
 	],
 	"kind" : "cache",
