@@ -71,28 +71,28 @@ include CMakeFiles/DynamicMemory.dir/flags.make
 CMakeFiles/DynamicMemory.dir/codegen:
 .PHONY : CMakeFiles/DynamicMemory.dir/codegen
 
-CMakeFiles/DynamicMemory.dir/main.cpp.obj: CMakeFiles/DynamicMemory.dir/flags.make
-CMakeFiles/DynamicMemory.dir/main.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/DynamicMemory/main.cpp
-CMakeFiles/DynamicMemory.dir/main.cpp.obj: CMakeFiles/DynamicMemory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicMemory.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicMemory.dir/main.cpp.obj -MF CMakeFiles\DynamicMemory.dir\main.cpp.obj.d -o CMakeFiles\DynamicMemory.dir\main.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\main.cpp
+CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj: CMakeFiles/DynamicMemory.dir/flags.make
+CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/DynamicMemory/LinkedList.cpp
+CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj: CMakeFiles/DynamicMemory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj -MF CMakeFiles\DynamicMemory.dir\LinkedList.cpp.obj.d -o CMakeFiles\DynamicMemory.dir\LinkedList.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\LinkedList.cpp
 
-CMakeFiles/DynamicMemory.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicMemory.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\main.cpp > CMakeFiles\DynamicMemory.dir\main.cpp.i
+CMakeFiles/DynamicMemory.dir/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicMemory.dir/LinkedList.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\LinkedList.cpp > CMakeFiles\DynamicMemory.dir\LinkedList.cpp.i
 
-CMakeFiles/DynamicMemory.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemory.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\main.cpp -o CMakeFiles\DynamicMemory.dir\main.cpp.s
+CMakeFiles/DynamicMemory.dir/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicMemory.dir/LinkedList.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\DynamicMemory\LinkedList.cpp -o CMakeFiles\DynamicMemory.dir\LinkedList.cpp.s
 
 # Object files for target DynamicMemory
 DynamicMemory_OBJECTS = \
-"CMakeFiles/DynamicMemory.dir/main.cpp.obj"
+"CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj"
 
 # External object files for target DynamicMemory
 DynamicMemory_EXTERNAL_OBJECTS =
 
-DynamicMemory.exe: CMakeFiles/DynamicMemory.dir/main.cpp.obj
+DynamicMemory.exe: CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj
 DynamicMemory.exe: CMakeFiles/DynamicMemory.dir/build.make
 DynamicMemory.exe: CMakeFiles/DynamicMemory.dir/linkLibs.rsp
 DynamicMemory.exe: CMakeFiles/DynamicMemory.dir/objects1.rsp

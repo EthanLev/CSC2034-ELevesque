@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ethan/CSC2034-ELevesque/ClassWork/DynamicMemory/main.cpp" "CMakeFiles/DynamicMemory.dir/main.cpp.obj" "gcc" "CMakeFiles/DynamicMemory.dir/main.cpp.obj.d"
+  "C:/Users/ethan/CSC2034-ELevesque/ClassWork/DynamicMemory/LinkedList.cpp" "CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj" "gcc" "CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -5,6 +5,11 @@ void foo();
 struct IArray {
     int* arr;
     size_t size;
+
+    // Destructor
+    ~IArray() {
+        delete arr;
+    }
 };
 
 int main(int, char**) {
@@ -22,4 +27,8 @@ int main(int, char**) {
     IArray arr2 {new int[] {1, 2, 3}, 3};
     delete [] arr2.arr;
 
+    IArray* arr3 = new IArray{new int[] {1, 2, 3}, 3};
+    std::cout << arr3->size << std::endl;
+
+    delete arr3;
 }

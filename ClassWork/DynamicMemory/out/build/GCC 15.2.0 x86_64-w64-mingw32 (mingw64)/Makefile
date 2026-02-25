@@ -128,29 +128,29 @@ DynamicMemory/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/build
 .PHONY : DynamicMemory/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+LinkedList.obj: LinkedList.cpp.obj
+.PHONY : LinkedList.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/LinkedList.cpp.obj
+.PHONY : LinkedList.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+LinkedList.i: LinkedList.cpp.i
+.PHONY : LinkedList.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/main.cpp.i
-.PHONY : main.cpp.i
+LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+LinkedList.s: LinkedList.cpp.s
+.PHONY : LinkedList.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/main.cpp.s
-.PHONY : main.cpp.s
+LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicMemory.dir\build.make CMakeFiles/DynamicMemory.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DynamicMemory
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... LinkedList.obj
+	@echo ... LinkedList.i
+	@echo ... LinkedList.s
 .PHONY : help
 
 
