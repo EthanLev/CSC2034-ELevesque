@@ -26,6 +26,16 @@ IntList::~IntList() {
     std::cout << "Destroying List" << std::endl;
 }
 
+// Copy constructor
+IntList::IntList(const IntList& other) 
+    : IntList()
+{
+    // for each node in original list, copy to this list
+    for (auto n = other.head; n; n = n -> next) {
+        add(n->data);
+    }
+}
+
 void IntList::add(int n) {
     IntList::Node* new_node = new Node(n); // create new node with data
 

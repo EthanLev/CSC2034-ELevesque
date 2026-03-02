@@ -16,6 +16,13 @@ public:
     IntList();
     ~IntList();
 
+    // Copy constructor
+    IntList(const IntList& other); // = delete 
+                                   // if you dont want user to be able to copy list into another list/delete all copy constructors
+
+    // Assignment Operator Overload
+    IntList& operator=(const IntList& other);
+
     void add(int n);
     void print() const;
     int size() const;
