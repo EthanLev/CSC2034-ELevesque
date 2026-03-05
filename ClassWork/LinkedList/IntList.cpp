@@ -6,11 +6,11 @@ IntList::Node::Node(int d)
     , next(nullptr)
     , prev(nullptr) 
 {
-    std::cout << "Creating Node" << std::endl;
+    //std::cout << "Creating Node" << std::endl;
 }
 
 IntList::Node::~Node() {
-    std::cout << "Destroying Node" << std::endl;
+    //std::cout << "Destroying Node" << std::endl;
 }
 
 IntList::IntList()
@@ -18,12 +18,12 @@ IntList::IntList()
     , tail(nullptr)
     , length(0)
 {
-    std::cout << "Creating List" << std::endl;
+    //std::cout << "Creating List" << std::endl;
 }
 
 IntList::~IntList() {
     clear();
-    std::cout << "Destroying List" << std::endl;
+    //std::cout << "Destroying List" << std::endl;
 }
 
 // Copy constructor
@@ -34,6 +34,31 @@ IntList::IntList(const IntList& other)
     for (auto n = other.head; n; n = n -> next) {
         add(n->data);
     }
+}
+
+// Overloading Assignment Operator
+IntList& IntList::operator=(const IntList& other) { 
+
+    // Invoke copy constructor
+    IntList temp {other};
+
+    std::swap(this->head, temp.head);
+    std::swap(this->tail, temp.tail);
+    std::swap(this->length, temp.length);
+
+    return *this;
+}
+
+IntList operator+(const IntList& l1, const IntList& l2) {
+
+    // Invoke copy constructor
+    IntList result{l1};
+
+    for (auto n = l2.head; n; n = n -> next) {
+        result.add(n->data);
+    }
+
+    return result;
 }
 
 void IntList::add(int n) {

@@ -23,6 +23,9 @@ public:
     // Assignment Operator Overload
     IntList& operator=(const IntList& other);
 
+    // Operator + Overload
+    friend IntList operator+(const IntList& l1, const IntList& l2);
+
     void add(int n);
     void print() const;
     int size() const;
