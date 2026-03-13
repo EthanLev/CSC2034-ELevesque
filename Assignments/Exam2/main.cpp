@@ -22,6 +22,7 @@ int main(int, char**){
 
     // Create a new line (line3)
     Line line3{};
+
     // Assign coordinates from line2 to line3
     line3 = line2;
 
@@ -37,7 +38,7 @@ int main(int, char**){
     Point offset{0,2};
     *(line3.getPt1()) + offset;
     *(line3.getPt2()) + offset;
+    
     // Print line3 and it's slope
     std::cout << "Line3 after shift: " << line3 << " Slope: " << line3.slope() << std::endl;
-
 }

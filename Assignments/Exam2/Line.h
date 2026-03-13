@@ -12,13 +12,21 @@ public:
 
     Line(const Line& other); // Copy constructor
 
-    ~Line();
+    ~Line(); // Destructor to delete points when line is out of scope
 
+    // Getters
     Point* getPt1() { return pt1; }
     Point* getPt2() { return pt2; }
 
+    // Returns length of points in line
     double segmentLength();
+
+    // Returns slope of line as an int
     int slope();
 
+    // Assignment operator to copy points
+    Line& operator = (const Line& other);
+
+    //Overload stream for printing line
     friend std::ostream& operator << (std::ostream& out, Line& line);
 };

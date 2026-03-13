@@ -12,15 +12,16 @@ Line::Line(int x1, int y1, int x2, int y2) {
     pt2 = new Point{x2,y2};
 }
 
+// Copy constructor
+Line::Line(const Line& other) {
+    pt1 = new Point{*other.pt1};
+    pt2 = new Point{*other.pt2};
+}
+
+// Destructor
 Line::~Line() {
     delete pt1;
     delete pt2;
-}
-
-// Copy constructor
-Line::Line(const Line& other) {
-    pt1 = new Point{other.pt1->getX(), other.pt1->getY()};
-    pt2 = new Point{other.pt2->getX(), other.pt2->getY()};
 }
 
 double Line::segmentLength() {
@@ -37,12 +38,24 @@ int Line::slope() {
     return y/x;
 }
 
+Line& Line::operator = (const Line& other) {
+    if (this == &other) return *this;
+
+    delete pt1;
+    delete pt2;
+
+    pt1 = new Point{*other.pt1};
+    pt2 = new Point{*other.pt2};
+
+    return *this;
+}
+
 std::ostream& operator << (std::ostream& out, Line& line) {
     out << *line.pt1
         << " and " 
         << *line.pt2;
 
-    return out << std::endl;
+    return out;
 }
 
 
