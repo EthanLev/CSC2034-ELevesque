@@ -36,15 +36,15 @@ int main() {
             continue;
         }
 
-        if (isBoardFull(board)) {
-            std::cout << "Draw. Game Over\n";
-            break;
-        }
-
         printBoard(board);
 
         if (checkScore(board, placedRow, column, currentPlayer)) {
             std::cout << "Player " << currentPlayer << " wins\n";
+            break;
+        }
+
+        if (isBoardFull(board)) {
+            std::cout << "Draw. Game Over\n";
             break;
         }
 
@@ -134,11 +134,10 @@ bool checkVertical(const std::array<std::array<char, col>, row>& board, int r, i
 bool checkDiagonal(const std::array<std::array<char, col>, row>& board, int r, int c, char player) {
     int count = 1;
 
-    // up-right / down-left check
+    // up-right / down-left
     int rowCheck = r - 1;
     int colCheck = c + 1;
-    while (rowCheck >= 0 && colCheck < col &&
-           board[rowCheck][colCheck] == player) {
+    while (rowCheck >= 0 && colCheck < col && board[rowCheck][colCheck] == player) {
         count++;
         rowCheck--;
         colCheck++;
@@ -146,22 +145,20 @@ bool checkDiagonal(const std::array<std::array<char, col>, row>& board, int r, i
 
     rowCheck = r + 1;
     colCheck = c - 1;
-    while (rowCheck < row && colCheck >= 0 &&
-           board[rowCheck][colCheck] == player) {
+    while (rowCheck < row && colCheck >= 0 && board[rowCheck][colCheck] == player) {
         count++;
         rowCheck++;
         colCheck--;
     }
 
-    return count >= 4;
+    if (count >= 4) return true;
 
-    // up-left / down-right check
+    // up-left / down-right
     count = 1;
 
     rowCheck = r - 1;
     colCheck = c - 1;
-    while (rowCheck >= 0 && colCheck >= 0 &&
-           board[rowCheck][colCheck] == player) {
+    while (rowCheck >= 0 && colCheck >= 0 && board[rowCheck][colCheck] == player) {
         count++;
         rowCheck--;
         colCheck--;
@@ -169,8 +166,7 @@ bool checkDiagonal(const std::array<std::array<char, col>, row>& board, int r, i
 
     rowCheck = r + 1;
     colCheck = c + 1;
-    while (rowCheck < row && colCheck < col &&
-           board[rowCheck][colCheck] == player) {
+    while (rowCheck < row && colCheck < col && board[rowCheck][colCheck] == player) {
         count++;
         rowCheck++;
         colCheck++;
