@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Pointers/Car.cpp" "CMakeFiles/Pointers.dir/Car.cpp.obj" "gcc" "CMakeFiles/Pointers.dir/Car.cpp.obj.d"
+  "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Pointers/Inventory.cpp" "CMakeFiles/Pointers.dir/Inventory.cpp.obj" "gcc" "CMakeFiles/Pointers.dir/Inventory.cpp.obj.d"
   "C:/Users/ethan/CSC2034-ELevesque/ClassWork/Pointers/main.cpp" "CMakeFiles/Pointers.dir/main.cpp.obj" "gcc" "CMakeFiles/Pointers.dir/main.cpp.obj.d"
   )
 

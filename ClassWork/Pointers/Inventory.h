@@ -11,14 +11,15 @@ class Inventory {
 
 public:
     Inventory(); // Constructor
-
-    Inventory(Inventory& other) = delete; // Copy constructor
-                                          // = delete doesn't allow copying
-
     ~Inventory(); // Destructor
 
-    Inventory& operator = (Inventory& other) = delete; // Overload operator
+    Inventory(Inventory& other); // Copy constructor
+                                 // = delete doesn't allow copying
+
+    Inventory& operator = (Inventory& other) = default; // Overload operator
 
     bool add(Car* car);
     bool remove(Car* car);
+
+    friend std::ostream& operator << (std::ostream& out, const Inventory* inventory);
 };

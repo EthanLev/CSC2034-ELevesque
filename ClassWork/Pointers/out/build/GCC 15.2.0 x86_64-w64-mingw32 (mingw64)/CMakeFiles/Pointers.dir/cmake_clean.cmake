@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Pointers.dir/Car.cpp.obj"
+  "CMakeFiles/Pointers.dir/Car.cpp.obj.d"
+  "CMakeFiles/Pointers.dir/Inventory.cpp.obj"
+  "CMakeFiles/Pointers.dir/Inventory.cpp.obj.d"
   "CMakeFiles/Pointers.dir/main.cpp.obj"
   "CMakeFiles/Pointers.dir/main.cpp.obj.d"
   "Pointers.exe"

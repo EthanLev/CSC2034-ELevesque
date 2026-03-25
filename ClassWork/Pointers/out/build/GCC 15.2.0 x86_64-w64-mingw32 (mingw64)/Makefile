@@ -128,6 +128,54 @@ Pointers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
 .PHONY : Pointers/fast
 
+Car.obj: Car.cpp.obj
+.PHONY : Car.obj
+
+# target to build an object file
+Car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Car.cpp.obj
+.PHONY : Car.cpp.obj
+
+Car.i: Car.cpp.i
+.PHONY : Car.i
+
+# target to preprocess a source file
+Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Car.cpp.i
+.PHONY : Car.cpp.i
+
+Car.s: Car.cpp.s
+.PHONY : Car.s
+
+# target to generate assembly for a file
+Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Car.cpp.s
+.PHONY : Car.cpp.s
+
+Inventory.obj: Inventory.cpp.obj
+.PHONY : Inventory.obj
+
+# target to build an object file
+Inventory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Inventory.cpp.obj
+.PHONY : Inventory.cpp.obj
+
+Inventory.i: Inventory.cpp.i
+.PHONY : Inventory.i
+
+# target to preprocess a source file
+Inventory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Inventory.cpp.i
+.PHONY : Inventory.cpp.i
+
+Inventory.s: Inventory.cpp.s
+.PHONY : Inventory.s
+
+# target to generate assembly for a file
+Inventory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/Inventory.cpp.s
+.PHONY : Inventory.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Pointers
+	@echo ... Car.obj
+	@echo ... Car.i
+	@echo ... Car.s
+	@echo ... Inventory.obj
+	@echo ... Inventory.i
+	@echo ... Inventory.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
