@@ -20,6 +20,8 @@ public:
 
     bool add(Car* car);
     bool remove(Car* car);
+    void clearInventoryBackwards();
+    void clearInventory();
 
     friend std::ostream& operator << (std::ostream& out, const Inventory* inventory);
 };

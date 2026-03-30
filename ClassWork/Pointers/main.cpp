@@ -3,8 +3,8 @@
 
 int main(int, char**){
     Inventory* stock = new Inventory();
-    //Inventory stock2 {*stock}; // copy of stock with pointer
-    //Inventory* stock3 = &stock2; // address to stock2
+    Inventory stock2 {*stock}; // copy of stock with pointer
+    Inventory* stock3 = &stock2; // address to stock2
 
     Car* bmw = new Car {"BMW123", "BMW", "335i"};
     Car* subaru = new Car {"Subaru456", "Subaru", "Impreza"};
@@ -14,5 +14,12 @@ int main(int, char**){
     stock->add(subaru);
     stock->add(audi);
 
-    std::cout << stock << std::endl;
+    std::cout << "Stock: \n" << stock << std::endl;
+
+    stock->remove(bmw);
+    std::cout << "Stock After Remove: \n" << stock << std::endl;
+
+    stock->clearInventory();
+
+    std::cout << "Stock After Clear: \n" << stock << std::endl;
 }
