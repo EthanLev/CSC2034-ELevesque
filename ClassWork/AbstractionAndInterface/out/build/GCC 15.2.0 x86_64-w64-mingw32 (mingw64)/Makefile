@@ -128,6 +128,102 @@ AbstractionAndInterface/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/build
 .PHONY : AbstractionAndInterface/fast
 
+Bike.obj: Bike.cpp.obj
+.PHONY : Bike.obj
+
+# target to build an object file
+Bike.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj
+.PHONY : Bike.cpp.obj
+
+Bike.i: Bike.cpp.i
+.PHONY : Bike.i
+
+# target to preprocess a source file
+Bike.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.i
+.PHONY : Bike.cpp.i
+
+Bike.s: Bike.cpp.s
+.PHONY : Bike.s
+
+# target to generate assembly for a file
+Bike.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.s
+.PHONY : Bike.cpp.s
+
+Car.obj: Car.cpp.obj
+.PHONY : Car.obj
+
+# target to build an object file
+Car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj
+.PHONY : Car.cpp.obj
+
+Car.i: Car.cpp.i
+.PHONY : Car.i
+
+# target to preprocess a source file
+Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Car.cpp.i
+.PHONY : Car.cpp.i
+
+Car.s: Car.cpp.s
+.PHONY : Car.s
+
+# target to generate assembly for a file
+Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Car.cpp.s
+.PHONY : Car.cpp.s
+
+Phone.obj: Phone.cpp.obj
+.PHONY : Phone.obj
+
+# target to build an object file
+Phone.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj
+.PHONY : Phone.cpp.obj
+
+Phone.i: Phone.cpp.i
+.PHONY : Phone.i
+
+# target to preprocess a source file
+Phone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.i
+.PHONY : Phone.cpp.i
+
+Phone.s: Phone.cpp.s
+.PHONY : Phone.s
+
+# target to generate assembly for a file
+Phone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.s
+.PHONY : Phone.cpp.s
+
+Vehicle.obj: Vehicle.cpp.obj
+.PHONY : Vehicle.obj
+
+# target to build an object file
+Vehicle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj
+.PHONY : Vehicle.cpp.obj
+
+Vehicle.i: Vehicle.cpp.i
+.PHONY : Vehicle.i
+
+# target to preprocess a source file
+Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.i
+.PHONY : Vehicle.cpp.i
+
+Vehicle.s: Vehicle.cpp.s
+.PHONY : Vehicle.s
+
+# target to generate assembly for a file
+Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.s
+.PHONY : Vehicle.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +257,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AbstractionAndInterface
+	@echo ... Bike.obj
+	@echo ... Bike.i
+	@echo ... Bike.s
+	@echo ... Car.obj
+	@echo ... Car.i
+	@echo ... Car.s
+	@echo ... Phone.obj
+	@echo ... Phone.i
+	@echo ... Phone.s
+	@echo ... Vehicle.obj
+	@echo ... Vehicle.i
+	@echo ... Vehicle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

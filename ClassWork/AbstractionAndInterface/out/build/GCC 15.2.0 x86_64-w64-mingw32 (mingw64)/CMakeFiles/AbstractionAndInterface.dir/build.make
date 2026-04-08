@@ -85,19 +85,83 @@ CMakeFiles/AbstractionAndInterface.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AbstractionAndInterface.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\main.cpp -o CMakeFiles\AbstractionAndInterface.dir\main.cpp.s
 
+CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/flags.make
+CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/AbstractionAndInterface/Vehicle.cpp
+CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj -MF CMakeFiles\AbstractionAndInterface.dir\Vehicle.cpp.obj.d -o CMakeFiles\AbstractionAndInterface.dir\Vehicle.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Vehicle.cpp
+
+CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Vehicle.cpp > CMakeFiles\AbstractionAndInterface.dir\Vehicle.cpp.i
+
+CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Vehicle.cpp -o CMakeFiles\AbstractionAndInterface.dir\Vehicle.cpp.s
+
+CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/flags.make
+CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/AbstractionAndInterface/Car.cpp
+CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj -MF CMakeFiles\AbstractionAndInterface.dir\Car.cpp.obj.d -o CMakeFiles\AbstractionAndInterface.dir\Car.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Car.cpp
+
+CMakeFiles/AbstractionAndInterface.dir/Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AbstractionAndInterface.dir/Car.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Car.cpp > CMakeFiles\AbstractionAndInterface.dir\Car.cpp.i
+
+CMakeFiles/AbstractionAndInterface.dir/Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AbstractionAndInterface.dir/Car.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Car.cpp -o CMakeFiles\AbstractionAndInterface.dir\Car.cpp.s
+
+CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/flags.make
+CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/AbstractionAndInterface/Bike.cpp
+CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj -MF CMakeFiles\AbstractionAndInterface.dir\Bike.cpp.obj.d -o CMakeFiles\AbstractionAndInterface.dir\Bike.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Bike.cpp
+
+CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Bike.cpp > CMakeFiles\AbstractionAndInterface.dir\Bike.cpp.i
+
+CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Bike.cpp -o CMakeFiles\AbstractionAndInterface.dir\Bike.cpp.s
+
+CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/flags.make
+CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj: C:/Users/ethan/CSC2034-ELevesque/ClassWork/AbstractionAndInterface/Phone.cpp
+CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj: CMakeFiles/AbstractionAndInterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj -MF CMakeFiles\AbstractionAndInterface.dir\Phone.cpp.obj.d -o CMakeFiles\AbstractionAndInterface.dir\Phone.cpp.obj -c C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Phone.cpp
+
+CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Phone.cpp > CMakeFiles\AbstractionAndInterface.dir\Phone.cpp.i
+
+CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\Phone.cpp -o CMakeFiles\AbstractionAndInterface.dir\Phone.cpp.s
+
 # Object files for target AbstractionAndInterface
 AbstractionAndInterface_OBJECTS = \
-"CMakeFiles/AbstractionAndInterface.dir/main.cpp.obj"
+"CMakeFiles/AbstractionAndInterface.dir/main.cpp.obj" \
+"CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj" \
+"CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj" \
+"CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj" \
+"CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj"
 
 # External object files for target AbstractionAndInterface
 AbstractionAndInterface_EXTERNAL_OBJECTS =
 
 AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/main.cpp.obj
+AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/Vehicle.cpp.obj
+AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/Car.cpp.obj
+AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/Bike.cpp.obj
+AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/Phone.cpp.obj
 AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/build.make
 AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/linkLibs.rsp
 AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/objects1.rsp
 AbstractionAndInterface.exe: CMakeFiles/AbstractionAndInterface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AbstractionAndInterface.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable AbstractionAndInterface.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AbstractionAndInterface.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

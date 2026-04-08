@@ -84,12 +84,12 @@ clean: CMakeFiles/AbstractionAndInterface.dir/clean
 CMakeFiles/AbstractionAndInterface.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Built target AbstractionAndInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target AbstractionAndInterface"
 .PHONY : CMakeFiles/AbstractionAndInterface.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AbstractionAndInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AbstractionAndInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 0
 .PHONY : CMakeFiles/AbstractionAndInterface.dir/rule
@@ -101,7 +101,7 @@ AbstractionAndInterface: CMakeFiles/AbstractionAndInterface.dir/rule
 # codegen rule for target.
 CMakeFiles/AbstractionAndInterface.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AbstractionAndInterface.dir\build.make CMakeFiles/AbstractionAndInterface.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Finished codegen for target AbstractionAndInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\ClassWork\AbstractionAndInterface\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target AbstractionAndInterface"
 .PHONY : CMakeFiles/AbstractionAndInterface.dir/codegen
 
 # clean rule for target.
