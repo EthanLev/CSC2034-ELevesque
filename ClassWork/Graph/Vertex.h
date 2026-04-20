@@ -18,6 +18,8 @@ public:
 
     std::vector<Edge<K, E>>* getNeighbors() { return neighbors; }
 
+    bool operator==(const Vertex<K, E>& other);
+    
     template <typename U, typename V>
     friend std::ostream& operator<<(std::ostream& out, Vertex<U, V>& v);
 };

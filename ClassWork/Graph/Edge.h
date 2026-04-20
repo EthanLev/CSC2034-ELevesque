@@ -23,6 +23,8 @@ public:
     Vertex<K, E>* getDestination() { return dst; }
     E& getData() { return data; } // return reference because it will be on the heap
 
+    bool operator==(const Edge<K, E>& other);
+
     template <typename U, typename V>
     friend std::ostream& operator<<(std::ostream& out, Edge<U, V>& e);
 };
