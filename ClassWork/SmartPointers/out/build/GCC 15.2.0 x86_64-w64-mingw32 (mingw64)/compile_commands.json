@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/ClassWork/SmartPointers/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\SmartPointers.dir\\main.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\ClassWork\\SmartPointers\\main.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/ClassWork/SmartPointers/main.cpp",
+  "output": "CMakeFiles/SmartPointers.dir/main.cpp.obj"
+}
+]
