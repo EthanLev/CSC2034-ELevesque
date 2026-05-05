@@ -1,9 +1,12 @@
 #include "main.h"
+#include <filesystem>
 
 int main()
 {
     vector<string> candidates;
     vector<vector<string>> votes;
+
+    cout << std::filesystem::current_path() << endl;
 
     readCSV("data.csv", candidates, votes);
 
@@ -113,14 +116,23 @@ void readCSV(const string& file_path, vector<string>& candidates, vector<vector<
 
 int getFirstChoice(const vector<string>& row, const vector<bool>& eliminated)
 {
-    string minRank = "999";
+    if (row.size() != eliminated.size())
+    {
+        return -1;
+    }
+
+    int minRank = -1;   // no value yet
     int index = -1;
 
     for (int i = 0; i < row.size(); i++)
     {
-        if (!eliminated[i] && row[i] < minRank)
+        if (eliminated[i]) continue;
+
+        int rank = stoi(row[i]); // string to int
+
+        if (minRank == -1 || rank < minRank)
         {
-            minRank = row[i];
+            minRank = rank;
             index = i;
         }
     }

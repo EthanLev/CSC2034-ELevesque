@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/RankedChoiceVoting/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\RankedChoiceVoting.dir\\main.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\RankedChoiceVoting\\main.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/RankedChoiceVoting/main.cpp",
+  "output": "CMakeFiles/RankedChoiceVoting.dir/main.cpp.obj"
+}
+]

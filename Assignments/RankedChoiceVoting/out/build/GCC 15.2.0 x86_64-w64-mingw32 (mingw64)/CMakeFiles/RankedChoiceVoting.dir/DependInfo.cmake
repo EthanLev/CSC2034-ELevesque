@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ethan/Desktop/Coding/_Practice/C++Practice/RankedChoiceVoting/main.cpp" "CMakeFiles/RankedChoiceVoting.dir/main.cpp.obj" "gcc" "CMakeFiles/RankedChoiceVoting.dir/main.cpp.obj.d"
+  "C:/Users/ethan/CSC2034-ELevesque/Assignments/RankedChoiceVoting/main.cpp" "CMakeFiles/RankedChoiceVoting.dir/main.cpp.obj" "gcc" "CMakeFiles/RankedChoiceVoting.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

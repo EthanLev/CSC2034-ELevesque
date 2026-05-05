@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting
+CMAKE_SOURCE_DIR = C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+CMAKE_BINARY_DIR = "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/RankedChoiceVoting.dir/clean
 CMakeFiles/RankedChoiceVoting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankedChoiceVoting.dir\build.make CMakeFiles/RankedChoiceVoting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankedChoiceVoting.dir\build.make CMakeFiles/RankedChoiceVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Built target RankedChoiceVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Built target RankedChoiceVoting"
 .PHONY : CMakeFiles/RankedChoiceVoting.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RankedChoiceVoting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RankedChoiceVoting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 0
 .PHONY : CMakeFiles/RankedChoiceVoting.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ RankedChoiceVoting: CMakeFiles/RankedChoiceVoting.dir/rule
 # codegen rule for target.
 CMakeFiles/RankedChoiceVoting.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RankedChoiceVoting.dir\build.make CMakeFiles/RankedChoiceVoting.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Finished codegen for target RankedChoiceVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=1,2 "Finished codegen for target RankedChoiceVoting"
 .PHONY : CMakeFiles/RankedChoiceVoting.dir/codegen
 
 # clean rule for target.

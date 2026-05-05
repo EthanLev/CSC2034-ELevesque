@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting
+CMAKE_SOURCE_DIR = C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+CMAKE_BINARY_DIR = "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\Desktop\Coding\_Practice\C++Practice\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ethan\CSC2034-ELevesque\Assignments\RankedChoiceVoting\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
