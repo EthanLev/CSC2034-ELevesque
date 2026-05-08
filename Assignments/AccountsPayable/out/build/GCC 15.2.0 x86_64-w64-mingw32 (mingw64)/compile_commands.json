@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\AccountsPayable.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\AccountsPayable.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/AccountsPayable.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/AccountsPayable.cpp.obj"
+},
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\Employee.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\Employee.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/Employee.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/Employee.cpp.obj"
+},
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\SalariedEmployee.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\SalariedEmployee.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/SalariedEmployee.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/SalariedEmployee.cpp.obj"
+},
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\HourlyEmployee.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\HourlyEmployee.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/HourlyEmployee.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/HourlyEmployee.cpp.obj"
+},
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\CommissionEmployee.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\CommissionEmployee.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/CommissionEmployee.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/CommissionEmployee.cpp.obj"
+},
+{
+  "directory": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\AccountsPayable.dir\\BasePlusCommissionEmployee.cpp.obj -c C:\\Users\\ethan\\CSC2034-ELevesque\\Assignments\\AccountsPayable\\BasePlusCommissionEmployee.cpp",
+  "file": "C:/Users/ethan/CSC2034-ELevesque/Assignments/AccountsPayable/BasePlusCommissionEmployee.cpp",
+  "output": "CMakeFiles/AccountsPayable.dir/BasePlusCommissionEmployee.cpp.obj"
+}
+]
